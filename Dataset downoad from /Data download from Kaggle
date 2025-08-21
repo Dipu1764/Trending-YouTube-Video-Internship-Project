@@ -1,0 +1,9 @@
+
+# Download Dataset with Kaggle
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("datasnaek/youtube-new")
+
+print("Path to dataset files:", path)
